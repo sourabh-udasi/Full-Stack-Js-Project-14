@@ -8,7 +8,7 @@
 body {
   background-color: #f5f2f0;
   font-family: "Poppins", sans-serif;
-  overflow: hidden;
+  overflow: hidden !important;
 }
 
 .navbar-container .navbar {
@@ -17,6 +17,8 @@ body {
   margin-right: 6rem;
   height: 20vh;
   align-items: center;
+  overflow-x: auto;
+  width: 100vw;
 }
 .navbar-container .navbar .logo img {
   width: 100px;
@@ -43,7 +45,7 @@ body {
   left: -300px;
   width: 60%;
   height: 1.8px;
-  background-color: #333333;
+  background-color: #4e3535;
 }
 
 @media screen and (max-width: 1240px) {
